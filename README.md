@@ -27,7 +27,9 @@ This project is designed to showcase real-time network latency for high-frequenc
 
 ## 📸 Screenshots
 
-> *(Optional: add `public/screenshot.png` and show it here)*
+![Globe with latency lines Light Mode](./public/demo.png)
+
+![Globe with latency lines Dark Mode](./public/dem2.png)
 
 ---
 
