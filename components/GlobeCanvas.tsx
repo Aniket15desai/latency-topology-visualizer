@@ -12,6 +12,16 @@ type Props = {
   theme: 'dark' | 'light'
 }
 
+type ArcData = {
+  startLat: number
+  startLng: number
+  endLat: number
+  endLng: number
+  color: string
+  stroke: number
+  altitude: number
+}
+
 export default function GlobeCanvas({ servers, connections, theme, flows }: Props) {
   const globeRef = useRef<HTMLDivElement>(null)
 
@@ -29,7 +39,7 @@ export default function GlobeCanvas({ servers, connections, theme, flows }: Prop
       }
 
       // Create globe
-      globeInstance = Globe()(globeRef.current!)
+      globeInstance = new Globe(globeRef.current!)
         .globeImageUrl(`/earth-${theme}.png`)
         .backgroundColor('#000000')
         .showAtmosphere(true)
@@ -94,7 +104,7 @@ export default function GlobeCanvas({ servers, connections, theme, flows }: Prop
           }
         })
         .filter(Boolean)
-
+        
       globeInstance
         .arcsData([...arcs, ...tradeArcs] as any)
         .arcColor((d: any) => [d.color, d.color])
