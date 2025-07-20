@@ -48,7 +48,7 @@ This project is designed to showcase real-time network latency for high-frequenc
 ---
 
 ## 📁 Project Structure
-
+```
 latency-topology-visualizer/
 ├── app/
 │ ├── layout.tsx # Global layout and <head>
@@ -74,7 +74,7 @@ latency-topology-visualizer/
 yaml
 Copy
 Edit
-
+```
 ---
 
 ## ⚙️ Installation & Running Locally
