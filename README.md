@@ -21,7 +21,9 @@ This project is designed to showcase real-time network latency for high-frequenc
 
 ## 🔗 Live Demo
 
-> Deploy on [Vercel](https://latency-topology-visualizer-omega.vercel.app/)
+Link to video: [https://drive.google.com/file/d/1daEszC3zTFMBW_Jf77TwxqZ1bfQ066O5/view?usp=sharing]
+
+> Deployed on [Vercel](https://latency-topology-visualizer-omega.vercel.app/)
 
 ---
 
