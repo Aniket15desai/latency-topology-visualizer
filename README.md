@@ -29,7 +29,7 @@ This project is designed to showcase real-time network latency for high-frequenc
 
 ![Globe with latency lines Light Mode](./public/demo.png)
 
-![Globe with latency lines Dark Mode](./public/dem2.png)
+![Globe with latency lines Dark Mode](./public/demo2.png)
 
 ---
 
